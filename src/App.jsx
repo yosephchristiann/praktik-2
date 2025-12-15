@@ -5,12 +5,12 @@ import "./App.css";
 
 function App() {
   const student = {
-    name: "Riyan Wardhana",
-    nim: "4233550008",
+    name: "Yoseph Christian Sitanggang",
+    nim: "4233550015",
     prodi: "Ilmu Komputer",
   };
 
-  const matkul = ["Jaringan Komputer", "Pemrograman React", "IoT"];
+  const matkul = ["Jaringan Komputer", "Pemrograman Web Modern", "IoT"];
 
   const getCurrentTime = () => {
     return new Date().toLocaleString();
@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Belajar Topologi Jaringan</h1>
+      <h1>Belajar Pemrograman React</h1>
 
       <div className="student-info">
         <h2>Informasi Mahasiswa</h2>
